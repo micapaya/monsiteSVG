@@ -1,0 +1,47 @@
+// 320/699 xs
+// 700 991 sm
+// 992 1199 md
+// 1200 a +
+
+@media screen and (min-width: 319px) and (max-width: 768px) {
+	
+	div.center {
+		width: 140%;
+		min-width: 140%;
+		margin-left: -20%;
+		top: 0px;
+	}
+	#worldmenu {
+		display: none;
+		visibility: hidden;
+		margin-top: 50px;
+	}
+	div.containerroll {
+			  position: absolute;
+			  top: 50px;
+			  left: 50px; 
+			  width: 150px;
+}
+	div#RollM {
+			  width: 100px;
+			  position: absolute;
+			  z-index: 3;
+	}
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 991px) {
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+
+}
