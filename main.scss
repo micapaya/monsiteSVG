@@ -11,7 +11,7 @@
   src: url('font/SocialM.ttf') format('truetype');
 }
 
-@import "mediaqueries.scss";
+
 
 html {
   scroll-behavior: smooth;
@@ -28,7 +28,6 @@ div.help {
   overflow: hidden;
   width: 100vw;
   height: 100vh;
-  max-width: 100%;
   display: block;
   position: fixed;
   top: 0;
@@ -62,6 +61,7 @@ div#liquid {
     left: 0;
     top: 0;
     z-index: 5;
+ 
   }
 
 #worldmenu {
@@ -780,3 +780,6 @@ div.container_contact {
     display: block;
     cursor: pointer;
   }
+
+
+  @import "mediaqueries.scss";

@@ -7,108 +7,6 @@
 @font-face {
   font-family: 'soc';
   src: url("font/SocialM.ttf") format("truetype"); }
-@media screen and (min-width: 319px) and (max-width: 768px) {
-  body {
-    margin-top: 12px; }
-
-  body div.center {
-    width: 200%;
-    top: 0px; }
-
-  #svglogo {
-    position: absolute;
-    margin-top: 0px;
-    width: 200%;
-    display: block;
-    left: 0;
-    top: 0;
-    z-index: 5; }
-
-  #worldmenu {
-    top: -70px; }
-
-  div#parcours__pan, div#parc__pan, div#formation__pan, div#contact__pan, div#loisirs__pan, div#skills__pan, div#resume_pan {
-    height: 60px;
-    width: 60px;
-    display: block;
-    top: 170px; }
-
-  #parcours__pan {
-    margin-left: 43%;
-    left: 0; }
-
-  #parc__pan {
-    margin-left: -63.5%; }
-
-  #formation__pan {
-    margin-left: -5%; }
-
-  #contact__pan {
-    margin-right: -5%; }
-
-  #loisirs__pan {
-    margin-right: -45.5%; }
-
-  #skills__pan {
-    left: 70px;
-    right: 0;
-    margin-right: -45%; }
-
-  div#resume_pan {
-    margin-left: -35px;
-    margin-top: -70px;
-    display: none; }
-
-  div#parcours__pan svg,
-  div#parc__pan svg,
-  div#formation__pan svg,
-  div#contact__pan svg,
-  div#loisirs__pan svg,
-  div#skills__pan svg,
-  div#resume_pan svg {
-    display: block;
-    margin-top: 0; }
-
-  body div.corps {
-    margin-top: -300px;
-    width: 200%; }
-
-  body div#fish_back {
-    width: 300%;
-    top: 100px; }
-
-  body div.secund {
-    top: 350px;
-    width: 300vw;
-    display: block;
-    padding: 25px; }
-
-  body div.lightWord1 {
-    font-size: 3em;
-    width: 200vw;
-    padding: 0; }
-
-  p.desc#propos {
-    margin-top: 50px;
-    width: 90vw; }
-
-  body div.social {
-    margin-top: 10px; }
-
-  body div.face_content {
-    width: 50%;
-    right: 0; }
-
-  body div.face_content img.myface {
-    width: 40%;
-    margin-left: 90%;
-    margin-top: 10%; }
-
-  body div.third {
-    top: 900px;
-    display: block;
-    width: 200%;
-    padding: 25px; } }
 html {
   scroll-behavior: smooth;
   -ms-scroll-chaining: none; }
@@ -121,7 +19,6 @@ div.help {
   overflow: hidden;
   width: 100vw;
   height: 100vh;
-  max-width: 100%;
   display: block;
   position: fixed;
   top: 0;
@@ -785,5 +682,191 @@ div.container_contact {
   font-size: 1.4em;
   display: block;
   cursor: pointer; }
+
+@media screen and (min-width: 319px) and (max-width: 768px) {
+  body {
+    margin-top: 12px; }
+
+  body div.center {
+    width: 100%;
+    top: 0px; }
+
+  #svglogo {
+    position: absolute;
+    margin-top: 0px;
+    width: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    z-index: 5; }
+
+  div#liquid {
+    width: 300%;
+    position: fixed; }
+
+  #worldmenu {
+    top: -30px; }
+
+  div#parcours__pan, div#parc__pan, div#formation__pan, div#contact__pan, div#loisirs__pan, div#skills__pan, div#resume_pan {
+    height: 60px;
+    width: 60px;
+    display: block;
+    top: 170px; }
+
+  #parcours__pan {
+    margin-left: 43%;
+    left: 0; }
+
+  #parc__pan {
+    margin-left: -63.5%; }
+
+  #formation__pan {
+    margin-left: -5%; }
+
+  #contact__pan {
+    margin-right: -5%; }
+
+  #loisirs__pan {
+    margin-right: -45.5%; }
+
+  #skills__pan {
+    left: 70px;
+    right: 0;
+    margin-right: -45%; }
+
+  div#resume_pan {
+    margin-left: -35px;
+    margin-top: -70px;
+    display: none; }
+
+  div#parcours__pan svg,
+  div#parc__pan svg,
+  div#formation__pan svg,
+  div#contact__pan svg,
+  div#loisirs__pan svg,
+  div#skills__pan svg,
+  div#resume_pan svg {
+    display: block;
+    margin-top: 0; }
+
+  body div.corps {
+    margin-top: -300px;
+    width: 100%; }
+
+  body div#fish_back {
+    width: 100%;
+    top: 100px; }
+
+  body div.secund {
+    top: 185px;
+    width: 100vw;
+    display: block;
+    padding: 20px; }
+
+  body div.lightWord1 {
+    font-size: 1.1em;
+    line-height: 1.2em;
+    width: 80vw;
+    padding: 0; }
+
+  body div.lightWord1 span {
+    font-size: 1.5em; }
+
+  p.desc#propos {
+    margin-top: 30px;
+    width: 80vw;
+    margin-left: -128px; }
+
+  body div.social {
+    margin-top: 10px; }
+
+  body div.face_content {
+    width: 50%;
+    right: 0; }
+
+  body div.face_content img.myface {
+    width: 25vw;
+    margin-left: 65vw;
+    margin-top: 38%; }
+
+  body div.third {
+    top: 600px;
+    display: block;
+    width: 100%;
+    padding: 25px;
+    display: inline-block; }
+
+  body div.left {
+    display: inline-block;
+    margin-top: 25px;
+    padding-top: 12px;
+    width: 80vw;
+    padding: 0; }
+
+  img.icoComp {
+    width: 40px;
+    margin: 10px; }
+
+  .lightWord2 {
+    font-size: 1em;
+    line-height: 1.3em;
+    width: 80vw; }
+
+  .lightWord2 span {
+    font-size: 1.3em; }
+
+  div.right {
+    margin-top: 20px; }
+
+  div#gear {
+    top: 700px;
+    width: 250%;
+    left: -250px; }
+
+  div.four {
+    top: 1200px; }
+
+  div.four div.lightWord1 {
+    width: 80vw; }
+
+  div#formpres {
+    margin-left: -70px;
+    margin-top: -120px;
+    width: 140vw; }
+
+  div.five {
+    top: 1600px; }
+
+  div.five div.lightWord1 {
+    width: 80vw; }
+
+  div#parcours {
+    width: 95vw;
+    margin: 0;
+    margin-top: -150px;
+    margin-left: 12px; }
+
+  div.six {
+    top: 2150px; }
+
+  div.six .lightWord1 {
+    color: white;
+    margin-top: -85px;
+    font-size: 1.8em;
+    margin-left: -12px; }
+
+  div.container_contact {
+    display: inline-block; }
+
+  #arobase {
+    padding: 0;
+    margin: 0;
+    width: 75vw; }
+
+  .mailto {
+    margin-left: 0; }
+
+  .menu {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */
