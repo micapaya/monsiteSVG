@@ -200,14 +200,40 @@
 		width: 80vw;
 	}
 	div#parcours {
-		width: 111vw;
-		margin:0;
-		margin-top: -150px;
-		margin-left: -20px;
+		display: none;
 	}
+	div.responsive_parc {
+		display: block;
+	}
+	.container_dates {
+		  display: grid;
+		  grid-template-columns: 25% 5% 70%;
+		  width: 95vw;
+		  margin-left: 25px;
+		  margin-bottom: 40px;
+		  margin-top: 50px;
+}
+	.container_dates h2 {
+		  color: white;
+		  font-family: 'myFont';
+		  width: 50vw;
+		  font-size: 1em;
+		  grid-column: 3;
+		  text-align: right;
+}
+	.dates  {
+			grid-column: 1;
+		    width: 100px;
+		    height: auto;
+		    margin-bottom: -45px;
+		    display: block;
+}
+.dates svg {
+	margin: -43px;
+}
 	
 	div.six {
-		top:2200px;
+		top:2600px;
 	}
 	div.six .lightWord1 {
 		color:white;

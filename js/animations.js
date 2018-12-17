@@ -132,6 +132,76 @@ let ArobaseIcon = bodymovin.loadAnimation({
 
 
 
+//date 
 
 
-
+let FirstDate = bodymovin.loadAnimation({
+	container: document.getElementById('date_2004'),
+	renderer: 'svg',
+	loop: true,
+	autoplay: true,
+	path: 'datJSON/test_date/2004.json',
+});
+let SecundDate = bodymovin.loadAnimation({
+	container: document.getElementById('date_2007'),
+	renderer: 'svg',
+	loop: true,
+	autoplay: true,
+	path: 'datJSON/test_date/2007rl.json',
+});
+let SecundDatee = bodymovin.loadAnimation({
+	container: document.getElementById('date_2007_2'),
+	renderer: 'svg',
+	loop: true,
+	autoplay: true,
+	path: 'datJSON/test_date/2007.json',
+});
+let SecundDateee = bodymovin.loadAnimation({
+	container: document.getElementById('date_2007_3'),
+	renderer: 'svg',
+	loop: true,
+	autoplay: true,
+	path: 'datJSON/test_date/2007rl.json',
+});
+let SecundDateeee = bodymovin.loadAnimation({
+	container: document.getElementById('date_2007_4'),
+	renderer: 'svg',
+	loop: true,
+	autoplay: true,
+	path: 'datJSON/test_date/2007.json',
+});
+let ThirdDateNine = bodymovin.loadAnimation({
+	container: document.getElementById('date_2009'),
+	renderer: 'svg',
+	loop: true,
+	autoplay: true,
+	path: 'datJSON/test_date/2009.json',
+});
+let ThirdDate = bodymovin.loadAnimation({
+	container: document.getElementById('date_2010'),
+	renderer: 'svg',
+	loop: true,
+	autoplay: true,
+	path: 'datJSON/test_date/2010.json',
+});
+let FoursDate = bodymovin.loadAnimation({
+	container: document.getElementById('date_2016'),
+	renderer: 'svg',
+	loop: true,
+	autoplay: true,
+	path: 'datJSON/test_date/2016.json',
+});
+let FivesDate = bodymovin.loadAnimation({
+	container: document.getElementById('date_2017'),
+	renderer: 'svg',
+	loop: true,
+	autoplay: true,
+	path: 'datJSON/test_date/2017.json',
+});
+let SixtDate = bodymovin.loadAnimation({
+	container: document.getElementById('date_2018'),
+	renderer: 'svg',
+	loop: true,
+	autoplay: true,
+	path: 'datJSON/test_date/2018.json',
+});
