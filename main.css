@@ -749,16 +749,33 @@ div.container_contact {
     display: block;
     margin-top: 0; }
 
+  div#parc__pan svg {
+    margin-left: 65px;
+    margin-top: -50px;
+    /*skills*/ }
+
+  div#parcours__pan svg {
+    margin-left: -5px;
+    margin-top: -35px; }
+
+  div#formation__pan svg {
+    margin-left: -75px;
+    margin-top: -50px; }
+
+  div#contact__pan svg {
+    margin-left: 100px;
+    margin-top: -95px; }
+
+  div#loisirs__pan svg {
+    margin-left: -100px;
+    margin-top: -95px; }
+
   body div.corps {
     margin-top: -300px;
     width: 100%; }
 
-  body div#fish_back {
-    width: 100%;
-    top: 100px; }
-
   div#fish_back {
-    margin-top: -300px; }
+    top: -200px; }
 
   body div.secund {
     top: 185px;
@@ -776,13 +793,16 @@ div.container_contact {
     font-size: 1.5em; }
 
   p.desc#propos {
-    margin-top: 30px;
+    margin-top: 55px;
     width: 80vw;
     margin-left: -128px;
     font-size: 0.8em; }
 
   body div.social {
     margin-top: 10px; }
+
+  a.social {
+    margin-top: 25px; }
 
   body div.face_content {
     width: 50%;
@@ -791,7 +811,7 @@ div.container_contact {
   body div.face_content img.myface {
     width: 25vw;
     margin-left: 65vw;
-    margin-top: 185px; }
+    margin-top: 170px; }
 
   body div.third {
     top: 600px;
