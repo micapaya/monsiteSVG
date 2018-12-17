@@ -90,6 +90,9 @@
 		top: 100px;
 
 	}
+	div#fish_back {
+		margin-top: -300px;
+	}
 	body div.secund {
 		top: 185px;
 		width: 100vw;
@@ -109,6 +112,7 @@
 		margin-top: 30px;
 		width: 80vw;
 		margin-left: -128px;
+		font-size: 0.8em;
 	}
 	body div.social {
 		margin-top: 10px;
@@ -120,7 +124,7 @@
 	body div.face_content img.myface {
 		width: 25vw;
 		margin-left: 65vw;
-		margin-top: 38%;
+		margin-top: 185px;
 
 	}
 
@@ -177,14 +181,14 @@
 		width: 80vw;
 	}
 	div#parcours {
-		width: 95vw;
+		width: 111vw;
 		margin:0;
 		margin-top: -150px;
-		margin-left: 12px;
-
+		margin-left: -20px;
 	}
+	
 	div.six {
-		top:2150px;
+		top:2200px;
 	}
 	div.six .lightWord1 {
 		color:white;
