@@ -5,3 +5,5 @@ window.addEventListener('scroll', function(e) {
 
 	previousScroll = getScrollPos();
 });	
+
+console.log("Salut tout le monde");
