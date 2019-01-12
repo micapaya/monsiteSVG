@@ -1,4 +1,4 @@
 {
-	"root": "dist/",
+	"root": "./",
 	"clean_urls": false
 }
