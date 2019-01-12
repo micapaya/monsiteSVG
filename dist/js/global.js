@@ -1,2 +1,0 @@
-let previousScroll = 1
-
