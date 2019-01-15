@@ -17,6 +17,6 @@ function getCurrentBreakpoint(breakpoint){
 	if (!breakpoint){
  		breakpoint = window.innerHeight;
 	}
-  	return Math.round(scrollpos / breakpoint +0.4);
+  	return Math.round(scrollpos / breakpoint );
 }
 

@@ -14,6 +14,8 @@ let liquid = bodymovin.loadAnimation({
 	path: 'datJSON/liquid.json',
 });
 
+
+
 let gear = bodymovin.loadAnimation({
 	container: document.getElementById('gear'),
 	renderer: 'svg',

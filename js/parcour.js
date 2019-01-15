@@ -1,8 +1,8 @@
 function handleParcour(){
-	if (getCurrentBreakpoint() === 5){
+	if (getCurrentBreakpoint() === 3){
 		parcour.play();
 	}
-	if (getCurrentBreakpoint() === 4){
+	if (getCurrentBreakpoint() === 2){
 		formres.play();
 	}
 }
